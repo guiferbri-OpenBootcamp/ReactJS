@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import ComponentA from './components/containers/componentA';
+import { Contact } from './models/Contact.class';
 
 function App() {
+
+  const defaultContact = new Contact("Guiomar", "Bobadilla", "guiomar@email.com", true);
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/*<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +20,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>*/}
+        <ComponentA contact={defaultContact}></ComponentA>
       </header>
     </div>
   );
