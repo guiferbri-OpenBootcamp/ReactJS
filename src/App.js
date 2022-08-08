@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ComponentA from './components/containers/componentA';
 import { Contact } from './models/Contact.class';
+import ClockF from './components/pure/Clock';
 
 function App() {
 
@@ -21,7 +22,10 @@ function App() {
         >
           Learn React
         </a>*/}
-        <ComponentA contact={defaultContact}></ComponentA>
+        {/* Ejercicio 1,2,3 */}
+        {/*<ComponentA contact={defaultContact}></ComponentA>*/}
+        {/* Ejercicio 4,5,6 */}
+        <ClockF></ClockF>
       </header>
     </div>
   );
