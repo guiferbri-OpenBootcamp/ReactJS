@@ -6,26 +6,9 @@ import ContactForm from '../pure/forms/ContactForm';
 
 
 const ContactList = () => {
-    const defaultContact1 = {
-        firstname : "Contact 1 - Firstname",
-        lastname : "Contact 1 - Lastname",
-        email : "contact1@email.com",
-        connected: false
-    };
-
-    const defaultContact2 = {
-        firstname : "Contact 2 - Firstname",
-        lastname : "Contact 2 - Lastname",
-        email : "contact2@email.com",
-        connected: true
-    };
-
-    const defaultContact3 = {
-        firstname : "Contact 3 - Firstname",
-        lastname : "Contact 3 - Lastname",
-        email : "contact3@email.com",
-        connected: false
-    }
+    const defaultContact1 = new Contact("Contact 1 - Firstname", "Contact 1 - Lastname", "contact1@email.com", false);
+    const defaultContact2 = new Contact("Contact 2 - Firstname", "Contact 2 - Lastname", "contact2@email.com", true);
+    const defaultContact3 = new Contact("Contact 3 - Firstname", "Contact 3 - Lastname", "contact3@email.com", false)
 
     const [contacts, setContacts] = useState([defaultContact1, defaultContact2, defaultContact3]);
 
