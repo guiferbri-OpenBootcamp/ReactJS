@@ -31,7 +31,9 @@ function App() {
         {/* Ejercicio 7,8,9 */}
         {/* <ContactList></ContactList>*/}
         {/* Ejercicio 10,11,12 */}
-        <Square></Square>
+        {/* <Square></Square> */}
+        {/* Ejercicio 13,14,15 */}
+        <ContactList></ContactList>
       </header>
     </div>
   );

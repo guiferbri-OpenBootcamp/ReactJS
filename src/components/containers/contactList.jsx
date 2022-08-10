@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Contact } from '../../models/Contact.class';
 import ContactComp from '../pure/ContactComp';
 import ContactForm from '../pure/forms/ContactForm';
+import ContactFormFormik from '../pure/forms/ContactFormFormik';
 
 
 const ContactList = () => {
@@ -55,7 +56,9 @@ const ContactList = () => {
                     )}
                 </tbody>
             </table>
-            <ContactForm add={addContact}></ContactForm>
+            {/* Ejercicio 7,8,9 */}
+            {/*<ContactForm add={addContact}></ContactForm>*/}
+            <ContactFormFormik add={addContact}></ContactFormFormik>
         </div>
     );
 };
