@@ -3,6 +3,7 @@ import './App.css';
 import ComponentA from './components/containers/componentA';
 import { Contact } from './models/Contact.class';
 import ClockF from './components/pure/Clock';
+import ContactList from './components/containers/contactList';
 
 function App() {
 
@@ -25,7 +26,9 @@ function App() {
         {/* Ejercicio 1,2,3 */}
         {/*<ComponentA contact={defaultContact}></ComponentA>*/}
         {/* Ejercicio 4,5,6 */}
-        <ClockF></ClockF>
+        {/*<ClockF></ClockF>*/}
+        {/* Ejercicio 7,8,9 */}
+        <ContactList></ContactList>
       </header>
     </div>
   );
