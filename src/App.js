@@ -4,6 +4,7 @@ import ComponentA from './components/containers/componentA';
 import { Contact } from './models/Contact.class';
 import ClockF from './components/pure/Clock';
 import ContactList from './components/containers/contactList';
+import Square from './components/pure/Square';
 
 function App() {
 
@@ -28,7 +29,9 @@ function App() {
         {/* Ejercicio 4,5,6 */}
         {/*<ClockF></ClockF>*/}
         {/* Ejercicio 7,8,9 */}
-        <ContactList></ContactList>
+        {/* <ContactList></ContactList>*/}
+        {/* Ejercicio 10,11,12 */}
+        <Square></Square>
       </header>
     </div>
   );
