@@ -10,6 +10,7 @@ import HomePage from './pages/home/HomePage';
 import LoginPage from './pages/oauth/LoginPage';
 import RegisterPage from './pages/oauth/RegisterPage';
 import ContactListPage from './pages/oauth/ContactListPage';
+import JokeComp from './components/pure/JokeComp';
 
 function App() {
 
@@ -40,7 +41,8 @@ function App() {
           {/* <Square></Square> */}
           {/* Ejercicio 13,14,15 */}
           {/*<ContactList></ContactList>*/}
-          <aside>
+          {/* Ejercicio 16,17,18 */}
+          {/*<aside>
             <Link to='/'>|| HOME |</Link>
             <Link to='/contacts'>| Contacts |</Link>
             <Link to='/register'>| Register |</Link>
@@ -53,7 +55,9 @@ function App() {
               <Route path='/register' element={<RegisterPage />} />
               <Route path='/contacts' element={<ContactListPage />} />
             </Routes>
-          </main>
+          </main>*/}
+          {/* Ejercicio 19,20,21 */}
+          <JokeComp></JokeComp>
         </header>
       </div>
     </Router>
