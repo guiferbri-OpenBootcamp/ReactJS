@@ -14,6 +14,7 @@ import JokeComp from './components/pure/JokeComp';
 import TodosContainer from './components/containers/TodoContainer';
 import TodoFormContainer from './components/containers/TodoFormContainer';
 import Filteroptions from './components/pure/FilterOptions';
+import TaskReducer from './components/pure/TaskReducer';
 
 function App() {
 
@@ -62,9 +63,11 @@ function App() {
           {/* Ejercicio 19,20,21 */}
           {/*<JokeComp></JokeComp>*/}
           {/* Ejercicio 22,23,24 */}
-          <TodosContainer></TodosContainer>
+          {/*<TodosContainer></TodosContainer>
           <TodoFormContainer></TodoFormContainer>
-          <Filteroptions></Filteroptions>
+          <Filteroptions></Filteroptions>*/}
+          {/* Ejercicio 25,26 */}
+          <TaskReducer></TaskReducer>
         </header>
       </div>
     </Router>
