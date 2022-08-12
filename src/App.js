@@ -11,6 +11,9 @@ import LoginPage from './pages/oauth/LoginPage';
 import RegisterPage from './pages/oauth/RegisterPage';
 import ContactListPage from './pages/oauth/ContactListPage';
 import JokeComp from './components/pure/JokeComp';
+import TodosContainer from './components/containers/TodoContainer';
+import TodoFormContainer from './components/containers/TodoFormContainer';
+import Filteroptions from './components/pure/FilterOptions';
 
 function App() {
 
@@ -57,7 +60,11 @@ function App() {
             </Routes>
           </main>*/}
           {/* Ejercicio 19,20,21 */}
-          <JokeComp></JokeComp>
+          {/*<JokeComp></JokeComp>*/}
+          {/* Ejercicio 22,23,24 */}
+          <TodosContainer></TodosContainer>
+          <TodoFormContainer></TodoFormContainer>
+          <Filteroptions></Filteroptions>
         </header>
       </div>
     </Router>

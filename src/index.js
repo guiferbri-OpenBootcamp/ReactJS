@@ -7,11 +7,21 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+// Redux Imports:
+import { Provider } from 'react-redux';
+// Import Config Function of App Store
+import { createAppStore } from './store/config/storeConfig'
+
+// We create the App Store
+let appStore = createAppStore()
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Provider store={appStore}>
+    <React.StrictMode>
+      <App /> 
+    </React.StrictMode>
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
